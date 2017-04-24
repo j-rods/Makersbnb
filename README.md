@@ -1,21 +1,28 @@
-MakersBnB!
+## MakersBnB!
 
 ![Imgur](http://i.imgur.com/jciL2bD.png)
 =================
 
 Allows user to both list and book holiday destinations:
 
-- User may list any number of spaces
-- User can update spaces they have listed
-
-- User can request to book any space they choose (not listed by them) for one night
-- User can accept or reject requests for their space to be reserved
-- Spaces cannot be booked twice for the same night
+- A user can:
+  - Sign up.
+  - List multiple spaces.
+  - Update spaces they have listed.
+  - Be able to offer a range of dates where their space is available.
+  - Request to book any space they choose (not listed by them) for one night.
+  - Accept or reject requests for their space to be reserved.
+- Spaces cannot be booked twice for the same night.
+- Users cannot book their own space.
 
 -------
 
-To use MakersBnB, 
+### To use MakersBnB
 
+##### Via Heroku:
+Navigate to `https://makersbandb.herokuapp.com/`
+
+##### To set it up locally:
 ```
 $ git clone git@github.com:jackbittiner/Makersbnb.git
 $ bundle
